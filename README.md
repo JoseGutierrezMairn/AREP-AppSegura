@@ -31,11 +31,11 @@ https://localhost:5000/
 ~~~
 ## Certificado
 Cuando entramos a la página podemos ver el certificado que se creó para la página  
-![Imagenes](https://github.com/JoseGutierrezMairn/AREP-AppSegura/blob/master/img/certificado1.png)  
+![Imagenes](https://github.com/JoseGutierrezMairn/AREP-AppSegura/blob/master/img/certificado1.PNG?raw=true)  
 
-![Imagenes](https://github.com/JoseGutierrezMairn/AREP-AppSegura/blob/master/img/certificado2.png)  
+![Imagenes](https://github.com/JoseGutierrezMairn/AREP-AppSegura/blob/master/img/certificado2.PNG?raw=true)  
 
-![Imagenes](https://github.com/JoseGutierrezMairn/AREP-AppSegura/blob/master/img/certificado3.png)  
+![Imagenes](https://github.com/JoseGutierrezMairn/AREP-AppSegura/blob/master/img/certificado3.PNG?raw=true)  
 Cuando se entra a la página por primera vez es normal que el navegador muestre una advertencia que el certificado es desconocido,  
 lo que se debe hacer es decirle al navegador que nos redirija a la página que solicitamos y que ignore permita el certificado.  
 
