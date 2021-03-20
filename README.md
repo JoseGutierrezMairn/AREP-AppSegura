@@ -27,7 +27,27 @@ Para compilar el código con maven solo debemos correr el siguiente codigo en el
 Si queremos ejecutar el programa de manera local, debemos compilar el proyecto con maven y posteriormente ir a nuestro IDE y ejecutar el código fuente.  
 Una vez el programa este ejecutandose podemos ir a nuestro navegador de preferencia y escribir en la url la siguiente dirección:  
 ~~~
-http://localhost:5000/  
+https://localhost:5000/  
 ~~~
+## Certificado
+Cuando entramos a la página podemos ver el certificado que se creó para la página  
+![Imagenes](https://github.com/JoseGutierrezMairn/AREP-AppSegura/blob/master/img/certificado1.png)  
+
+![Imagenes](https://github.com/JoseGutierrezMairn/AREP-AppSegura/blob/master/img/certificado2.png)  
+
+![Imagenes](https://github.com/JoseGutierrezMairn/AREP-AppSegura/blob/master/img/certificado3.png)  
+Cuando se entra a la página por primera vez es normal que el navegador muestre una advertencia que el certificado es desconocido,  
+lo que se debe hacer es decirle al navegador que nos redirija a la página que solicitamos y que ignore permita el certificado.  
+
+## Demostración en video
+~~~
+funcionamiento de la página con login exitoso
+~~~  
+![gifautsuccess](https://github.com/JoseGutierrezMairn/AREP-AppSegura/blob/master/img/authenticationSuccessful.gif)
+~~~
+funcionamiento de la página con login no exitoso
+~~~  
+![gifautsuccess](https://github.com/JoseGutierrezMairn/AREP-AppSegura/blob/master/img/noAuthentication.gif)
+
 # Autor
 * [Jose Gutierrez](https://github.com/JoseGutierrezMairn)

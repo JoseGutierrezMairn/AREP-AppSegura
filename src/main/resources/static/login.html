@@ -2,6 +2,9 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Secure Login</title>
+		<script src="js/apiclient.js"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link href="./css/login.css" rel="stylesheet">
@@ -33,7 +36,7 @@
 							</div>
 						</div>
 						<div class="input-group" id="log">
-							<button type="button" class="btn btn-success">Iniciar sesión</button>
+							<button type="button" class="btn btn-success" onclick="apiclient.login()">Iniciar sesión</button>
 						</div>
 					</form>
 				</div>
