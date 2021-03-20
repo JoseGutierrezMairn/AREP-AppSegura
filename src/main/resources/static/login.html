@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Secure Login</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link href="./css/login.css" rel="stylesheet">
+	</head>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+		input, button,div,a{
+			font-family: 'Akaya Telivigala', cursive;
+		}
+	</style>
+	<body>
+		<div class="container">
+			<div class="d-flex justify-content-center h-100">
+				<div class="cuadrado">
+					<div class="input-group" id="LRimage">
+						<img src='./css/img/eci.PNG' style="width: 250px; height: 100px;">
+					</div>
+					<form method="post">
+						<div class="input-group" id="email">
+							<span class="input-group-addon"><i class="fa fa-user fa-fw" aria-hidden="true"style="color: black"></i></span>
+							<div class="col-md-7">
+								<input type="text" class="form-control" id="correoUsuario" placeholder="correo"/>
+							</div>
+						</div>
+						<div class="input-group" id="pw">
+							<span class="input-group-addon"><i class="fa fa-key fa-fw" aria-hidden="true" style="color: black"></i></span>
+							<div class="col-md-8">
+								<input type="password" class="form-control" id="contraseñaUsuario" placeholder="contraseña" aria-hidden="true"/>
+							</div>
+						</div>
+						<div class="input-group" id="log">
+							<button type="button" class="btn btn-success">Iniciar sesión</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
